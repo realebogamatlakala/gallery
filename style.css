@@ -134,6 +134,7 @@
     font-size: 160px;
     margin-top: 1px;
   }
+  
 
   .home-page h1 {
     color: #ffffff;
@@ -141,6 +142,15 @@
     font-family:fantasy;
     letter-spacing: 5.5px;
     font-size: 160px;
+    margin-top: 1px;
+  }
+
+  .events-page h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family:fantasy;
+    letter-spacing: 2.5px;
+    font-size: 120px;
     margin-top: 1px;
   }
 
@@ -185,6 +195,28 @@
     margin: 0 auto;
 
   }
+
+  .events-items{
+   
+    font: 80px;
+    color: black; 
+    padding: 2px;
+    transition: transform .2s;
+    margin: 0 auto;
+
+  }
+
+  .events-content{
+    display: inline-block;
+    text-align: left;
+    background-color: #0f8d19;
+    margin-left: 35%;
+    margin-bottom: 15px;
+  }
+
+  .footer{
+    max-height: 30%;
+  }
   
   .home p {
     color: #af8028;
@@ -219,6 +251,16 @@
 
   .home-page {
     background-image: url(/images/Art-Galleries-with-Kenings-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px 200px;
+    border-radius: 5px;
+    height: 750px;
+  }
+
+  .events-page {
+    background-image: url(/images/Untitled\ design.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
